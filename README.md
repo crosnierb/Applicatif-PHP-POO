@@ -1,8 +1,8 @@
-DARWIN_GAME_POO-Applicatif
+**** DARWIN_GAME_POO-Applicatif ****
 POO Applicatif with Animal-Object.
 
 
-register_PHP_Applicatif
+**** register_PHP_Applicatif ****
 Create a registration form that saves a new user in a database. You will create a page inscription.php that will display a registration form with the following input fields:
 -A field of type "text" with attribute "name" with value "name" 
 -A field of type "text" with attribute "name" with value "email" 
@@ -16,7 +16,7 @@ The creation date of the new user must be saved in the database in the field "cr
 If the user creation succeeds, you will display the form again preceded by the message "User created".
 
 
-login_PHP_Applicatif
+**** login_PHP_Applicatif ****
 Create a new page set_color.php that displays a form containing a field of type "text" with attribute "name" with value "background". You will also add a button to validate the form, containing the text "Submit". When the form is submitted, you will check the validity of the value entered (the value can be "white", "black", "red" or "blue").
 If  the  value  is  valid,  you  will  bring  the  user,  via  a  302  redirection,  to  the  page  show_color.php  that you will create. You will also save the entered value in a cookie named "background_color".
 If the value is not valid, you will display the form again preceded with the message "Invalid color". In that case, you will need to make sure there is no more existing cookie named "background_color". The page show_color.php has the following behavior:
