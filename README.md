@@ -2,7 +2,7 @@
 POO Applicatif with Animal-Object.
 
 
-**** register_PHP_Applicatif ****
+**** register_PHP_Applicatif ****/n
 Create a registration form that saves a new user in a database. You will create a page inscription.php that will display a registration form with the following input fields:
 -A field of type "text" with attribute "name" with value "name" 
 -A field of type "text" with attribute "name" with value "email" 
