@@ -1,0 +1,298 @@
+.HTML{
+background-color: white;
+}
+
+@media all and (min-width : 769px) {
+  main{
+    margin-top: 130px;
+  }
+
+  header{
+         width:90%;
+         right: 20px;
+         left: 1px;
+         padding-bottom: 8px;
+  }
+
+  header div{
+      display:inline-block;
+  }
+
+  header nav{
+      display:inline-block;
+  }
+
+  .right-bordered-and-small, aside{
+    position: fixed;
+    //margin-top: %;
+    right: 0;
+      float: right;
+      border-style:solid;
+      border-color:black;
+      border-size: 1px;
+      width: 30%;
+  }
+
+  .left-bordered-and-big, section{
+      margin-bottom: 151px;
+      float: left;
+      border-style:solid;
+      border-color:black;
+      border-size: 1px;
+      width: 68%;
+  }
+
+      table, th, tr, td{
+        font-size: 18px;
+        border: 1px solid white;
+        border-collapse: collapse;
+        text-align: center;
+        margin-left:auto;
+        margin-right:auto;
+      }
+}
+
+@media all and (max-width : 768px) {
+  main{
+    margin-top: 200px;
+  }
+
+  header{
+    display: block;
+      width:100%;
+  padding-bottom: 0px;
+  }
+
+    header div{
+        display:block;
+
+    }
+    header nav {
+        display: block;
+        //text-align: center;
+    }
+
+    header nav ul{
+      float:left;
+      width: 98%;
+    }
+
+    .right-bordered-and-small, aside{
+      //position: fixed;
+      margin-bottom: 35%;
+      //left: 0;
+      //  bottom: 0px;
+      //  float:none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-bordered-and-big, section{
+      margin-bottom: 1px;
+      margin-right: 2%;
+      font-size: 12px;
+        float: left;
+        border-style:solid;
+        border-color:black;
+        border-size: 1px;
+        width: 98%;
+    }
+
+    p{
+      font-size: 18px;
+    }
+
+    abbr{
+            font-size: 18px;
+    }
+
+    #review li{
+      font-size: 18px;
+    }
+
+    table, th, tr, td{
+      font-size: 18px;
+      border: 1px solid white;
+      border-collapse: collapse;
+      text-align: center;
+      margin-left:auto;
+margin-right:auto;
+    }
+
+    .php{
+      font-size: 87%;
+    }
+
+    address{
+      font-size: 14px;
+    }
+  }
+
+  @media all and (max-width : 440px) {
+    main{
+      margin-top: 200px;
+    }
+
+      header{
+        display:inline-block;
+        padding-bottom: 0px;
+        width:100%;
+      }
+
+    header fieldset div{
+        //text-align: center;
+    }
+
+      header nav {
+        //margin-right: 10;
+      }
+
+      header nav ul{
+        //float:left;
+        //list-style-type: none;
+        width:94%;
+      }
+
+      header nav ul li {
+          width: 100%;
+      }
+
+      .left-bordered-and-big, section{
+        //font-size: 16px;
+          //float: left;
+          border-style:solid;
+          border-color:black;
+          border-size: 1px;
+          width:99%;
+      }
+
+      .right-bordered-and-small, aside{
+        //position: fixed;
+        margin-bottom: 56%;
+        //left: 0;
+        //  bottom: 0px;
+        //  float:none;
+          width: 100%;
+          text-align: center;
+      }
+
+      p{
+        font-size: 15px;
+      }
+
+      abbr{
+        font-size: 15px;
+      }
+
+      #review li{
+        font-size: 18px;
+      }
+
+      table, th, tr, td{
+        font-size: 15px;
+        border: 1px solid white;
+        border-collapse: collapse;
+        text-align: center;
+      }
+
+      .php{
+        font-size: 67%;
+      }
+
+      address{
+        font-size: 12px;
+      }
+    }
+
+ul{
+	list-style:none;
+}
+
+header{
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  height: 120px;
+  top: 0;
+  z-index: 100;
+}
+
+header p{
+  color:white;
+  background:blue;
+  margin: auto;
+  margin-bottom: 10%;
+  font-family: 'Roboto Slab', serif;
+}
+
+.left-bordered-and-big, section{
+    //float: left;
+    border-style:solid;
+    border-color:black;
+    border-size: 1px;
+    //width: 68%;
+}
+
+section{
+//font-size: 20px;
+background-color: black;
+color: white;
+
+}
+
+aside{
+background-color: white;
+color: black;
+}
+
+span:nth-child(1){
+	color: red;
+	font-style: italic;
+}
+
+input, textarea {
+    /*déjà en inline-block*/
+    width: 150px;
+    padding: 4px;
+    vertical-align: top;
+}
+
+textarea {
+    width: 300px;
+    height: 5em;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-right: 20px;
+    vertical-align: top;
+    text-align: right;
+}
+
+form ul li{
+    text-align: left;
+}
+
+
+form ul li:last-child{
+        text-align: left;
+        padding-top: 2%;
+        padding-left: 13%;
+}
+
+footer{
+  position: fixed;
+  clear:both;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 130px;
+  overflow: auto;
+  background-color: grey;
+  color: black;
+  width: 100%;
+  border-top: 1px solid #878382;
+  padding-bottom: 1em;
+  text-align: center;
+}
